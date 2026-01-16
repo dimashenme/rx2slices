@@ -12,7 +12,7 @@ on separate tracks and converting slice staring points to warp marks,
 or a `.multisample` file, spreading different slices across different
 multisample zones.
 
-## Building the Program
+## Building and requirements
 
 You will need Xcode Command Line Tools (`clang++` and `clang`) on
 macOS and MinGW-w64 (`x86_64-w64-mingw32-g++`) on Windows.
@@ -20,6 +20,11 @@ macOS and MinGW-w64 (`x86_64-w64-mingw32-g++`) on Windows.
 Download [REX SDK](https://developer.reasonstudios.com/downloads/other-products) and run
 ```bash
 make REX_SDK_DIR=./REXSDK
+```
+
+To use `rx2bitwig.py` you need to install `numpy` and `scikit-learn`:
+```bash
+pip install numpy scikit-learn
 ```
 
 ## Usage
