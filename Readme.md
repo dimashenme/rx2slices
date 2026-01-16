@@ -81,4 +81,4 @@ python rx2bitwig.py loop1.wav:90 loop2.rx2:130
 ```
 ## Acknowledgements
 
-`rx2slices.cpp` is based on the code from [Paketti](https://github.com/esaruoho/paketti/) by Esa Juhani Ruoho.
+`rx2slices.cpp` is based on the code from [Paketti](https://github.com/esaruoho/paketti/) by Esa Juhani Ruoho @esaruoho.
