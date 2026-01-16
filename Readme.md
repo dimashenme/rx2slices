@@ -63,7 +63,7 @@ mapping slices to consequtive notes starting from C1.
 | :--- | :--- |
 | `-l LIST, --list LIST` | Get a list of file names from a file. |
 | `-o FILE, --output FILE` | Name of the output DAWProject (Default: `Export.dawproject`). |
-| `-b, --bpm` | Override the default calculated global project BPM. |
+| `-b, --bpm` | Override the DAWProject BPM (default: maximum of BPMs of input files). |
 | `--ms` | Export as `.multisample` files instead of a DAWProject. |
 | `--all-markers` | Place warp markers for every slice (Default filters to 1/8th note grid). |
 | `--debug` | Print some information during BPM detection. |
