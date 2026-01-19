@@ -10,7 +10,7 @@ TARGET = rx2slices
 
 # --- Platform Detection & Compiler Setup ---
 ifeq ($(OS),Windows_NT)
-    EXE      = $(TARGET).exe
+    EXE      = $(strip $(TARGET)).exe
     CXX      = x86_64-w64-mingw32-g++
     CC       = x86_64-w64-mingw32-gcc
     RM       = del /Q
@@ -49,7 +49,7 @@ all: $(EXE)
 
 # Final Link
 $(EXE): $(OBJS)
-	$(CXX) $(OBJS) -o $(EXE) $(LDFLAGS)
+	$(CXX) $(OBJS) -o "$(EXE)" $(LDFLAGS)
 
 # Compile C++ source
 rx2slices.o: rx2slices.cpp
