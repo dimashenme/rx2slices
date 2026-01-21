@@ -10,7 +10,7 @@ TARGET = rx2slices
 
 # --- Platform Detection & Compiler Setup ---
 ifeq ($(OS),Windows_NT)
-    EXE      = $(strip $(TARGET)).exe
+    EXE      = $(TARGET).exe
     CXX      = x86_64-w64-mingw32-g++
     CC       = x86_64-w64-mingw32-gcc
     RM       = del /Q
