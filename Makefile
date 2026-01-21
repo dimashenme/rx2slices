@@ -6,7 +6,7 @@ WAV_DIR_ESC = $(REX_SDK_DIR)/REX\ Test\ App
 WAV_C_ESC   = $(WAV_DIR_ESC)/Wav.c
 REX_C_ESC   = $(REX_SDK_DIR)/REX.c
 
-TARGET = rx2slices 
+TARGET = rx2slices
 
 # --- Platform Detection & Compiler Setup ---
 ifeq ($(OS),Windows_NT)
