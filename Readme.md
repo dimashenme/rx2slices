@@ -22,7 +22,7 @@ Download [REX SDK](https://developer.reasonstudios.com/downloads/other-products)
 make REX_SDK_DIR=./REXSDK
 ```
 
-To use `rx2bitwig.py` you need to install `numpy` and `scikit-learn`:
+To use `rx2bitwig.py` you need to [install Python](https://www.python.org/downloads/)  then install `numpy` and `scikit-learn`:
 ```bash
 pip install numpy scikit-learn
 ```
